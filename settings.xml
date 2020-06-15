@@ -132,10 +132,10 @@ under the License.
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
     -->
-	 <server>
-      <id>github</id>
-      <username>breno500as</username>
-      <password>c523d35f70c2fecba72b4c0d6fc8757fb73ea9b3</password>
+     <server>
+          <id>github</id>
+          <username>${server.username}</username>
+          <password>${server.password}</password>
      </server>
   </servers>
 
